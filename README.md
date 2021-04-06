@@ -36,5 +36,5 @@ Avec un compte Google il est possible de réaliser la phase d'entraînement long
 
 `python main.py downloader --classes Guitar Person --type_csv validation --limit 1000  --multiclasses 1 `
 
-<center><img src="https://github.com/vintel38/Object-Detection/blob/main/OIDV4.PNG" ...></center>
+<center><img src="https://github.com/vintel38/Object-Detection/blob/main/OIDV4.png" ...></center>
 <center>Capture d'écran de l'utilitaire OIDv4</center> 
