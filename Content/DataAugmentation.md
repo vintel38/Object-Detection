@@ -27,12 +27,12 @@ Quelques transformations sont expliquées ci-dessous. Pour les transformations q
  
 Technique | Résultat
 :---: | :---:
-Symétrie | ![](https://github.com/vintel38/Object-Detection/blob/main/Content/images/DA_flip.jpeg)
-Rotation | ![](https://github.com/vintel38/Object-Detection/blob/main/Content/images/DA_rotate.jpeg)
-Echelle | ![](https://github.com/vintel38/Object-Detection/blob/main/Content/images/DA_scale.jpeg)
-Recadrage | ![](https://github.com/vintel38/Object-Detection/blob/main/Content/images/DA_crop.jpeg)
-Translation | ![](https://github.com/vintel38/Object-Detection/blob/main/Content/images/DA_translation.jpeg)
-Bruit Gaussien | ![](https://github.com/vintel38/Object-Detection/blob/main/Content/images/DA_gaussian.png)
+Symétrie | ![](https://github.com/vintel38/Object-Detection/blob/master/Content/images/DA_flip.jpeg)
+Rotation | ![](https://github.com/vintel38/Object-Detection/blob/master/Content/images/DA_rotate.jpeg)
+Echelle | ![](https://github.com/vintel38/Object-Detection/blob/master/Content/images/DA_scale.jpeg)
+Recadrage | ![](https://github.com/vintel38/Object-Detection/blob/master/Content/images/DA_crop.jpeg)
+Translation | ![](https://github.com/vintel38/Object-Detection/blob/master/Content/images/DA_translation.jpeg)
+Bruit Gaussien | ![](https://github.com/vintel38/Object-Detection/blob/master/Content/images/DA_gaussian.png)
 
 
 
@@ -52,7 +52,7 @@ Toutes les techniques que nous avons traitées sont utilisables pour la majorit�
 
 - **Replication** L'espace vide est comblé comme si l'image était répliquée au-delà du coin concerné. Cette méthode est peu utilisée comme on retrouve peu ce cas de figure dans les jeux de données.
 
-<center><img src="https://github.com/vintel38/Object-Detection/blob/main/Content/images/DA_fill.jpeg" ...></center>
+<center><img src="https://github.com/vintel38/Object-Detection/blob/master/Content/images/DA_fill.jpeg" ...></center>
 <center> De la droite, nous avons les modes de remplissage constant, contour, réflection, symétrie et réplication.
 </center>
 
