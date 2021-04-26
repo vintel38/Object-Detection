@@ -36,7 +36,7 @@ Cette ligne de commande permet de télécharger 1500 photos contenant la classe 
 
 &nbsp;&nbsp;`python main.py downloader --classes Guitar --type_csv validation --limit 300 `
 
-<center><img src="https://github.com/vintel38/Object-Detection/blob/master/OIDV4.png" ...></center>
+<center><img src="https://github.com/vintel38/Object-Detection/blob/master/Content/images/OIDV4.png" ...></center>
 <center>Capture d'écran de l'utilitaire OIDv4</center> 
 
 - Créer ensuite un fichier `classes.txt` avec autant de lignes que de classes à détecter. Sur chaque ligne, recopier la classe des images. Utiliser la commande `python convert_annotations.py` pour convertir les annotations issues de OIDv4 en annotations Yolo. Puis dans les dossiers `OIDv4/train/$classe` et `OIDv4/validation/$classe`, supprimer les dossiers `Label`. Vous avez maintenant un dataset prêt à l'emploi pour entraîner votre CNN Yolov4 !
